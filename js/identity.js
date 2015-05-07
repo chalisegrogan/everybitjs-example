@@ -1,7 +1,3 @@
-// Send some Pix to myself
-// var options = {enableP2P: false};
-// EB.init(options);
-
 // Initialize the EveryBit platform
 PB.init();
 
@@ -33,17 +29,3 @@ function createIdentity(username, password){
     createIdentity(username, password);
   });
 })();
-
-// var login = function(username, password){
-//   var prom = PB.loginWithPassphrase(username, password);
-//   prom.then(function(success) {
-//     console.log(success);
-//     if(success) {
-//       PB.postPublicMessage('Hello World');
-//     } else {
-//       return false;
-//     }
-//   });
-// }
-//
-// login(username, password);
